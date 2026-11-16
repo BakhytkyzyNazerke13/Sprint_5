@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-import time
 
 @pytest.fixture
 def driver():
@@ -11,6 +10,5 @@ def driver():
     # 2. Передаем управление тесту
     yield driver
 
-    time.sleep(3)
     # 3. Закрываем браузер после завершения теста (автономность!)
     driver.quit()

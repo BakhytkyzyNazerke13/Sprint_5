@@ -15,6 +15,9 @@ class NavigationLocators:
     # Ссылка «Конструктор» в шапки сайта
     CONSTRUCTOR_LINK = (By.XPATH, "//p[contains(text(), 'Конструктор')]")
 
+    # Кнопка "Оформить заказ" (появляется только после успешного входа)
+    ORDER_BUTTON = (By.XPATH, "//button[contains(text(), 'Оформить заказ')]")
+
 
 class RegistrationLocators:
     """Локаторы для страницы регистрации (/register)"""

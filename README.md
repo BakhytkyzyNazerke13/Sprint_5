@@ -30,9 +30,11 @@ Sprint_5/
 │   ├── test_login.py           # Тесты входа в аккаунт
 │   ├── test_navigation.py      # Тесты навигации и выхода
 │   └── test_constructor.py     # Тесты переключения вкладок конструктора
-├── conftest.py                 # Фикстуры pytest
+├── config.py                   # Конфигурация (базовые URL)
+├── test_data.py                # Тестовые данные (email, пароли, имена)
+├── conftest.py                 # Фикстуры pytest (инициализация браузера)
 ├── data_generator.py           # Генератор уникальных тестовых данных
-├── locators.py                 # Карта локаторов элементов 
+├── locators.py                 # Карта локаторов элементов
 ├── requirements.txt            # Зависимости проекта
 ├── .gitignore                  # Исключаемые файлы для git
 └── README.md                   # Документация проекта
